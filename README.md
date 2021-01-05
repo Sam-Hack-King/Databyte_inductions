@@ -2,7 +2,7 @@
 
 # All my answers are as below:-
 
-Page 2:
+## Page 2:
 
 Q1) Suppose a whole number 'W' completely divides ((2^64) + 1). Which of the following number is completely divisible by 'W'?
 Ans.- ((2^192) + 1)
