@@ -1,5 +1,6 @@
 
-5. c) In your choice of language(Preferably python/R), Implement a class with the name MPNeuron. 
+# 5. c) 
+In your choice of language(Preferably python/R), Implement a class with the name MPNeuron. 
 This class implements an MP Neuron. 
 Implement the following member functions in your class: 
 (i) Initialise the constructor with the default number of inputs n = 3 and all inputs being [1,1,1] and the weights being [1,1,1] and threshold as 2.5, 
