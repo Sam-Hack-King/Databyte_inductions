@@ -1,0 +1,11 @@
+
+5. c) In your choice of language(Preferably python/R), Implement a class with the name MPNeuron. 
+This class implements an MP Neuron. 
+Implement the following member functions in your class: 
+(i) Initialise the constructor with the default number of inputs n = 3 and all inputs being [1,1,1] and the weights being [1,1,1] and threshold as 2.5, 
+(ii) MP_Neuron_Input() - Accepts the number of inputs n, list of n inputs and the list of n weights with -1 being inhibitory and +1 being excitatory, and the threshold (theta) also, 
+(iii) MP_Neuron_Evaluate() which outputs the final binary output 0 or 1 if the final value computed by the neuron is greater than the threshold. Test the MP neuron with 3 inputs and choose an appropriate combination of weights and biases to implement a 3 input NAND gate.
+
+-> Image [Link]
+ 
+We can take -1,-1,-1 as weights and -2.5 as threshold
