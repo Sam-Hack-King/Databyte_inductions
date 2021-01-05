@@ -6,14 +6,19 @@ Page 2:
 
 Q1) Suppose a whole number 'W' completely divides ((2^64) + 1). Which of the following number is completely divisible by 'W'?
 Ans.- ((2^192) + 1)
+
 Q2) Find the odd one out among 835, 734, 642, 751, 853, 981, 532
 Ans.- 751
+
 Q3) Find the maximum number of triangles.
 Ans.- 24
+
 Q4) Study the pie chart below. Suppose the amount of Royalty paid by the publisher is Rs. 2,81,250 for an edition of 12,500 copies. What should be the selling price of the book if the publisher desires a profit of 5%?
 Ans.- Rs. 157.50
+
 Q5) Study the chart given below. Which of the two countries accounts for higher-earning out of Services and Miscellaneous put together?
 Ans.- Both spend equal amounts
+
 Q6) Find 1st, 2nd & 4th central moments of the messages received on 9 consecutive days: 15, 11, 9, 5, 18, 4, 15, 13, 17.
 Ans.- Here, Number of observations = N = 9 
 Mean = M = 11.8889
@@ -21,8 +26,10 @@ Mean = M = 11.8889
 2nd Central moment = ∑fi(xi-M)^2/N = 22.5432
 3rd Central moment = ∑fi(xi-M)^3/N  = -46.5961
 4th Central moment = ∑fi(xi-M)^4/N  = 940.1786
+
 Q7) Calculate the Eigen Value(s) for the given matrix.
 Ans.- λ1=3 λ2=(-sqrt(29)+9)/2 λ3=(sqrt(29)+9)/2  Final expression for eigen values is -(λ-3)*(λ^2-9*λ+13) = 0 [Space is less for further explanation]]
+
 Q8) A biased dice with the property that the probability of a face with n dots showing up is proportional to n. The probability of face showing 3 dots is?
 Ans.- Let P[1]=1a,P [2]=2a ... P[6]=6a 
 The Sum of all the probabilities for an event is one.
@@ -162,6 +169,7 @@ Page -3:
 
 Q1) How will you explain Machine Learning to a 5-year-old?
 Ans.-> Machine Learning is an application of artificial intelligence where we give access to data(information) so that they can learn the pattern and use that data for performing task( This task is usually something which a human or an intelligent animal can accomplish, such as learning, planning, problem-solving, etc.)  without explicitly being programmed to do so or give prediction
+
 Q2) Each data point in a given dataset has a feature vector of N*1 where N is a large number. The classes are not well differentiable from the given dataset. How can we solve the problem?
 Ans.-> The class is imbalanced in the given question. To deal with it, we’ve to improve classification algorithms or balance classes in the training data before providing the data as input to the machine learning algorithm. And, as it has a large dataset, to minimize loss we can use dimensionality reduction techniques. We can use this concept to reduce the number of features in your dataset without having to lose much information and keep (or improve) the model's performance
 How can you deal with the problem of inadequate data in Machine Learning?
@@ -176,13 +184,17 @@ It is possible that the training or test datasets are an unrepresentative sample
  
 Q4) You are given 10000 training data points unequally divided into more than 2 classes and 2000 testing data points. The tool has the following algorithms in-built: (a) SVM, (b) XGBoost (c) Neural Network. Which one will you use and why?
 Ans.->  Clearly, here the dataset is very large. SVM will not perform good here as it has a very large dataset 
+
 Q5) You are given a regression model but the problem statement requires you to perform classification. How will you do it?
 Ans.-> Main objective of any regression model is to build a relationship between input variables and the target variables. Linear regression and logistic regression can be used to perform classification. Logistic regression is always better as it predicts the probability and helps in classifying it under different labels. This is done by setting a threshold frequency for each output label. If the probability of a certain variable is greater than that threshold frequency then it will be classified under that classification label.
+
 Q6) Can we use Convolutional Neural Networks on temporal data? If so, how?
 Ans.->Yes, we can use CNNs on Temporal data. Temporal data represents a state in time used for forecasting based applications. 
 Precisely, in the process of conversion temporal data models to CNNs, 2 stages will be required. First stage will be the Transformation stage (for modelling Data) where identity mapping, Smoothing and Down-sampling will be done. Next Stage will be Convolution Stage where Convolution, pooling, concatenation and then Full Connection(to add Flattening Layer) will take place.
+
 Q7) Suppose you have 5 layer CNN with each layer having a kernel of size 5*5 with zero paddings and stride 1. You pass an input of dimension 224 x 224 x 3 through this layer. There is a flattening layer after the last convolution layer. What is the dimension of output from the flattened layer?
 Ans.-> 
+
 Q8) Compare the optimization capacities of SGD and Adam optimizers. Explain the working.
 Ans.->
 Batch Gradient Descent:  https://ruder.io/optimizing-gradient-descent/index.html#gradientdescentvariants
