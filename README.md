@@ -1,8 +1,8 @@
 # Databyte_Inductions
 
-# All my answers are as below:-
+## All my answers are as below:-
 
-## Page 2:
+### Page 2
 
 Q1) Suppose a whole number 'W' completely divides ((2^64) + 1). Which of the following number is completely divisible by 'W'?
 Ans.- ((2^192) + 1)
@@ -165,7 +165,7 @@ Total number of maggie packets sold
 
 
 
-# Page -3:
+### Page 3
 
 Q1) How will you explain Machine Learning to a 5-year-old?
 Ans.-> Machine Learning is an application of artificial intelligence where we give access to data(information) so that they can learn the pattern and use that data for performing task( This task is usually something which a human or an intelligent animal can accomplish, such as learning, planning, problem-solving, etc.)  without explicitly being programmed to do so or give prediction
@@ -205,11 +205,11 @@ Ans.-> The optimization algorithm (or optimizer) is the main approach used today
 SGD is a variant of gradient descent. Instead of performing computations on the whole dataset — which is redundant and inefficient — SGD only computes on a small subset or random selection of data examples. SGD produces the same performance as regular gradient descent when the learning rate is low.
 Adam is an algorithm for gradient-based optimization of stochastic objective functions. It combines the advantages of two SGD extensions — Root Mean Square Propagation (RMSProp) and Adaptive Gradient Algorithm (AdaGrad) — and computes individual adaptive learning rates for different parameters. The Adam optimizer had the best accuracy of 99.2% in enhancing the CNN ability in classification and segmentation.
 
-# Page 4
+### Page 4
 
 All three are in the link : https://github.com/Sam-Hack-King/Databyte_inductions/blob/main/Inductions_Task1.ipynb
 
-# Page 5
+### Page 5
  
 Q1) Consider a list in python x = [1, 2, 3, 4]. What does x = x[ : : -1] do?
 Ans-> It reverses the list. At first, it makes a copy of the list and then reverses the list without sorting.
